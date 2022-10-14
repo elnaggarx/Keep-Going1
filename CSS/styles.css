@@ -10,7 +10,7 @@ body{
     color:white;
 }
 header{
-    background: whitesmoke;
+    background: rgb(245, 245, 245);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -28,7 +28,8 @@ header li,a{
 }
 .text-dec:hover{
     text-decoration: underline;
-    color:aqua;
+    color: whitesmoke;
+    background: aqua;
 }
 header button{
     background-color: grey ;
@@ -89,6 +90,14 @@ footer{
     background: rgb(36, 37, 42);
     color: whitesmoke;
     font-family: "Montserrat",sans-serif;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+footer li{
+    list-style: none;
+    margin-right:600px;
 }
 #phone-number:hover{
     text-decoration: underline;
